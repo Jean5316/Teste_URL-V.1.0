@@ -1,11 +1,3 @@
-## Já deixei instalado o package do Requests e também importado aqui para você. Está pronto para usar.
-## E não se esquece de pesquisar sobre try: e except: para tratar erros do Request. (isso pode te ajudar)
-
-## pode apagar esses comentários haha.
-
- 
-## Bom desafio!
-
 import requests
 def corrigir_nome(site):
         site =  site.lower().strip().replace(" ",'').split(',')
