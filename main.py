@@ -8,7 +8,7 @@
 
 import requests
 def corrigir_nome(site):
-        site =  str(site.lower().strip().replace(" ",'').split(','))
+        site =  site.lower().strip().replace(" ",'').split(',')
         return site
 
 def inicia_novamente(atz_exc):
@@ -40,6 +40,7 @@ status_code_erro_servidor = [500,501,502,503,504,505,506,507,508,509,510,511]
 
 sites = corrigir_nome(input("Qual o site(s): "))
 urls = sites
+print(urls)
 
 for site in urls:
         
